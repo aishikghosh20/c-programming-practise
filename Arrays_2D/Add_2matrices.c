@@ -23,7 +23,7 @@ int main()
 
     if (( n == x) && ( m==y))
     {
-    //for user inpput
+    //for user input
     printf ("ENTER THE ELEMENTS OF MATRIX 1 \n");
     for (int i=0;i<n;i++)
     {
