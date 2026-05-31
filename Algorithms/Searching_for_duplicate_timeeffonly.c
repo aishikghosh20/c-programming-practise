@@ -29,8 +29,5 @@ int main()
             break;
         }
     }
-    printf("THE DUPLICATE ELMENT IS %d AT POSITION %d", duplicate, index+1);
-
-
-
+    printf("THE DUPLICATE ELEMENT IS %d AT POSITION %d", duplicate, index+1);
 }
