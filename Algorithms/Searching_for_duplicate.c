@@ -13,7 +13,7 @@ int main()
         scanf("%d", &a[i]);
     }
 
-    int b[100]; //asuming the elements of a will be within 100
+    int b[100] ={0}; //asuming the elements of a will be within 100
 
     int duplicate, index;
     for(int i=0; i<n; i++)
