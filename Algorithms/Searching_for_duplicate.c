@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <limits.h>
 int main()
 {
     int n;
@@ -11,19 +12,24 @@ int main()
         printf("ENTER THE ELEMENT NO %d\n", i+1);
         scanf("%d", &a[i]);
     }
-    
-    for (int i=0; i<n; i++)
+
+    int b[100]; //asuming the elements of a will be within 100
+
+    int duplicate, index;
+    for(int i=0; i<n; i++)
     {
-        for(int j=i+1; j<n; j++)
+        if(b[a[i]] == 0) 
         {
-            if (a[i] == a[j])
-            {
-                printf("The Duplicate element is: %d", a[i]);
-                return 0;
-            }
+            b[a[i]] =1;
+        }
+        else
+        {
+            index = i;
+            duplicate = a[i];
         }
     }
-printf("NO SUCH DUPLICATE ELEMENT IN THE ARRAY");
-return 0;
+    printf("THE DUPLICATE ELMENT IS %d AT POSITION %d", duplicate, index+1);
+
+
 
 }
