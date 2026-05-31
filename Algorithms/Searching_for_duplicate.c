@@ -26,6 +26,7 @@ int main()
         {
             index = i;
             duplicate = a[i];
+            break;
         }
     }
     printf("THE DUPLICATE ELMENT IS %d AT POSITION %d", duplicate, index+1);
