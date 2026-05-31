@@ -5,6 +5,12 @@ int main()
     printf("ENTER THE NO OF ELEMENTS:\n");
     scanf("%d", &n);
     int a[n];
+
+    for(int i = 0; i < n; i++)
+    {
+        printf("ENTER THE ELEMENT NO %d\n", i+1);
+        scanf("%d", &a[i]);
+    }
     
     for (int i=0; i<n; i++)
     {
