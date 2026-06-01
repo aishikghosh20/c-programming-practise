@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 #include <time.h>
 
 int main()
@@ -29,6 +30,7 @@ int main()
     // Now to bubble sort
     for (int i = 0; i < n-1; i++)
     {
+        bool flag =true;
         for (int j=0; j<n-1-i; j++)
         {
             if (a[j] > a[j+1])
@@ -36,8 +38,12 @@ int main()
                 int temp = a[j];
                 a[j] = a[j+1];
                 a[j+1]=temp;
+                flag =false;
             }
         }
+        
+        if (flag == true) break;
+        
     }
 
     for(int i=0; i<n;i++)
