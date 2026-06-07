@@ -6,7 +6,7 @@ int main()
     int noofpages;
    float price;;
     char name[100];  // creating a char array of a large size just in case
-} a, b, c;
+} a;
 
 printf("ENTER THE NAME OF BOOK 1:\n");
 fgets(a.name, sizeof(a.name), stdin);
