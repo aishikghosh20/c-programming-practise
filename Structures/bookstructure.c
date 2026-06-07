@@ -18,7 +18,7 @@ scanf("%d", &a.noofpages);
 printf("ENTER THE PRICE OF BOOK 1:\n");
 scanf("%f", &a.price);
 
-printf("BOOK 1 : NAME- %s PRICE- %.3f   NUMBER OF PAGES- %d\n", a.name, a.price, a.noofpages);
+printf("BOOK 1 : NAME- %s PRICE- %.3f  NUMBER OF PAGES- %d\n", a.name, a.price, a.noofpages);
 
 return 0;
 }
