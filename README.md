@@ -10,6 +10,8 @@ This repository contains:
 - Arrays (1D & 2D)
 - Sorting Algoritms
 - Functions & Pointers
+- Recursion
+- Structures
 
 Topics covered:
 - Loops
@@ -24,3 +26,5 @@ Topics covered:
 - Sorting Algoritms
 - Functions
 - Pointers
+- Recursion
+- Structure
