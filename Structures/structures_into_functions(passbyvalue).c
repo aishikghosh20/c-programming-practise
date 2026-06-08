@@ -45,10 +45,6 @@ int main ()
     change(pikachu);
 
     printf("Pokemon : ATTTACK- %d    SPEED- %d    HEALTH- %d    TIER- %c\n\n", pikachu.attack,pikachu.speed,pikachu.hp,pikachu.tier);  // Changes were'nt reflected in the original attributes as the variable was passed by value
-
-
-
-
-
+    
     return 0;
 }
