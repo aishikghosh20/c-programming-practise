@@ -11,6 +11,7 @@ int main()
 //or int* a = (int*)malloc(n * 4);
 
     int* p = a; // to store a copy of the pointer 
+    int* ptr = a;
 
 
     // to input the interger numbers
@@ -28,6 +29,9 @@ int main()
        
         p++;
     }
+
+    free(ptr);
+    ptr = NULL;
 
     return 0;
 }
