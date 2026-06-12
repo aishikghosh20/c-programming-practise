@@ -47,7 +47,7 @@ int main()
         if (index >= 0)
         {
             printf("\033[1;32m\nLOGIN SUCCESSFULL \nWELCOME, %s!! \033[0m\n", usersbase[index].user_name);
-
+            sleep(1);
         }
         else{
             printf("\033[1;31m\nLOGIN FAILED. INVALID USERNAME OR PASSWORD \033[0m\n\n");
