@@ -1,0 +1,20 @@
+CLI Digital Clock (C) -
+A simple command-line Digital Clock built in C that displays the current system time in real-time directly inside the terminal. This project was created to practice working with time-related functions, loops, terminal manipulation, and basic user interface design in C.
+
+Features-
+- Real-time clock updates
+- Displays current hours, minutes, and seconds
+- Clean terminal-based interface
+- Cross-session time synchronization with system clock
+- Lightweight and fast
+
+Concepts Used-
+- Time and Date Functions (`time.h`)
+- Structures (`struct tm`)
+- Infinite Loops
+- Functions
+- Terminal Screen Refreshing
+- Formatting Output (`printf`)
+
+Author-
+Aishik Ghosh
