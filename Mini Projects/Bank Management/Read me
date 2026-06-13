@@ -1,0 +1,56 @@
+A console-based Bank Management System developed in C that allows users to -
+* Create bank accounts
+* Deposit money
+* Withdraw money
+* Transfer funds between accounts
+* Check account balances
+The project uses file handling to store account information permanently.
+
+Features-
+* Create new bank accounts
+* Prevent duplicate account numbers
+* Deposit money into an account
+* Withdraw money from an account
+* Transfer money between accounts
+* Check account balance
+* Input validation for common user mistakes
+* Persistent storage using files
+* Colorful terminal interface
+
+Concepts Used-
+* Structures
+* Functions
+* File Handling (fopen, fread, fwrite, fclose)
+* Input Validation
+* Conditional Statements
+* Loops
+* Binary File Operations
+
+Project Structure-
+  Each account stores:
+  * Username
+  * Account Number
+  * Account Balance
+
+  Data is stored in a file and remains available even after closing the program.
+
+  Sample Menu-
+  1. Create Account
+  2. Deposit Money
+  3. Withdraw Money
+  4. Transfer Money
+  5. Check Balance
+  6. Exit
+
+Learning Outcomes-
+  This project helped me practice:
+
+  * Managing records using structures
+  * Updating specific records in files
+  * Building menu-driven applications
+  * Implementing validation and error handling
+  * Designing modular programs using functions
+
+
+Author-
+Aishik Ghosh
