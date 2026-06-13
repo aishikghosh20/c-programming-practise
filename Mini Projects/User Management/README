@@ -1,0 +1,45 @@
+A console-based User Management System developed in C that allows users to register and log in using stored credentials.
+User information is saved using file handling, making the data persistent across program executions.
+
+Features-
+* User Registration
+* User Login
+* Duplicate username detection
+* Password masking support (optional future enhancement)
+* Input validation
+* Persistent storage using files
+* Colorful terminal interface
+
+Concepts Used-
+* Structures
+* Functions
+* File Handling
+* String Handling
+* Input Validation
+* Menu-Driven Programming
+
+Project Structure-
+
+Each user record stores:
+* Username
+* Password
+
+Data is stored in a file and can be accessed even after restarting the application.
+
+Sample Menu-
+1. Register
+2. Login
+3. Exit
+
+Learning Outcomes-
+  This project helped me practice:
+  * User authentication logic
+  * File-based data storage
+  * Working with strings
+  * Preventing duplicate records
+  * Creating reusable functions
+  * Building interactive CLI applications
+
+
+Author-
+Aishik Ghosh
